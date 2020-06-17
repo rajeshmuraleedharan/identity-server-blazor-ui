@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/.vs/ui-sln
+/src/admin-ui/bin/Debug/netstandard2.1
+/src/admin-ui/obj
+/src/api/.vs/api/DesignTimeBuild
+/src/api/bin/Debug/netcoreapp3.1
+/src/api/obj
+/src/identity-server/bin/Debug
+/src/identity-server/obj

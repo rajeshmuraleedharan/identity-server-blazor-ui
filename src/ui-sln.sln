@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api", "api\api.csproj", "{0FEC92A0-5DCC-4858-B663-F6ACFF870A74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "identity-server", "identity-server\IdentityServer.csproj", "{64161F79-495B-4D7C-9D75-1DD80D6ED573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "admin-ui", "admin-ui\admin-ui.csproj", "{B208DA75-62D3-4A17-A323-A6840500947E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FEC92A0-5DCC-4858-B663-F6ACFF870A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FEC92A0-5DCC-4858-B663-F6ACFF870A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FEC92A0-5DCC-4858-B663-F6ACFF870A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FEC92A0-5DCC-4858-B663-F6ACFF870A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64161F79-495B-4D7C-9D75-1DD80D6ED573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64161F79-495B-4D7C-9D75-1DD80D6ED573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64161F79-495B-4D7C-9D75-1DD80D6ED573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64161F79-495B-4D7C-9D75-1DD80D6ED573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B208DA75-62D3-4A17-A323-A6840500947E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B208DA75-62D3-4A17-A323-A6840500947E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B208DA75-62D3-4A17-A323-A6840500947E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B208DA75-62D3-4A17-A323-A6840500947E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F39CB4C-506B-443B-96C9-E4EA20F461D7}
+	EndGlobalSection
+EndGlobal
