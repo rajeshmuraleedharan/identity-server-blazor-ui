@@ -1,0 +1,26 @@
+﻿<Drawer Open="@Left"
+        OnClose="@CloseLeft">
+    @*<DrawerList Side
+        OnClick="@CloseLeft"
+        OnKeyDown="@CloseLeft" />*@
+    <NavMenu />
+</Drawer>
+
+@code{
+    private bool Left { set; get; }
+
+    public void OpenLeft()
+    {
+        Left = true;
+
+        StateHasChanged();
+    }
+
+    private void CloseLeft()
+    {
+        Left = false;
+
+        StateHasChanged();
+    }
+
+}

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Skclusive.Material.Component;
 
 namespace admin_ui
 {
@@ -25,6 +26,8 @@ namespace admin_ui
                 // For more information, see https://aka.ms/blazor-standalone-auth
                 builder.Configuration.Bind("Local", options.ProviderOptions);
             });
+
+            builder.Services.TryAddMaterialServices(new MaterialConfigBuilder().Build());
 
             await builder.Build().RunAsync();
         }

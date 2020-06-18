@@ -1,16 +1,21 @@
-﻿@inherits LayoutComponentBase
+﻿@using Skclusive.Core.Component
+@using Skclusive.Material.Drawer
+@using Skclusive.Material.Core
 
-<div class="sidebar">
-    <NavMenu />
-</div>
-
-<div class="main">
-    <div class="top-row px-4 auth">
-        <LoginDisplay />
-        <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-    </div>
-
-    <div class="content px-4">
+@inherits LayoutComponentBase
+<div Style="flex-grow: 1;">
+    <PageHeader LeftMenuOnClickCallback="@HandleLeftMenuClick"/>
+    <LeftNavBar @ref="child"/>
+    <main class="responsive-content">
         @Body
-    </div>
+    </main>
 </div>
+
+@code {
+    LeftNavBar child;
+
+    private void HandleLeftMenuClick()
+    {
+        child.OpenLeft();
+    }
+} 
