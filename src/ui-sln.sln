@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api", "api\api.csproj", "{0FEC92A0-5DCC-4858-B663-F6ACFF870A74}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "identity-server", "identity-server\IdentityServer.csproj", "{64161F79-495B-4D7C-9D75-1DD80D6ED573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "identity-server\IdentityServer.csproj", "{64161F79-495B-4D7C-9D75-1DD80D6ED573}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "admin-ui", "admin-ui\admin-ui.csproj", "{B208DA75-62D3-4A17-A323-A6840500947E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "admin-ui", "admin-ui\admin-ui.csproj", "{B208DA75-62D3-4A17-A323-A6840500947E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
